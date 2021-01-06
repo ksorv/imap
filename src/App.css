@@ -1,0 +1,16 @@
+.leaflet-container {
+  height: 100vh;
+  width: 100%;
+}
+
+.totalSpent {
+  position: absolute;
+  padding: 4px;
+  bottom: 10%;
+  right: 2%;
+  width: 96%;
+  height: 16px;
+  margin: auto;
+  z-index: 999;
+  display: flex;
+}
