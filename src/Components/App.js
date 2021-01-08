@@ -7,7 +7,7 @@ import Circle from "./Circle";
 import { getAllPercentages } from "../utils";
 
 import "../styles/App.css";
-import apiData from "../../data.json";
+import apiData from "../data.json";
 
 function App() {
   const [below, betweenOne, betweenTwo, above] = getAllPercentages(apiData);
